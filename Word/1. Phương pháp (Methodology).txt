@@ -1,0 +1,46 @@
+1. Phương pháp (Methodology):
+1.1. Xác định vấn đề:
+
+Mục tiêu: Hiểu rõ thị trường xe motor phân khối lớn, ảnh hưởng của các yếu tố như công suất, dung tích xy-lanh, năm sản xuất đối với giá bán.
+Vấn đề: Dự đoán giá bán xe motor dựa trên các thông số kỹ thuật và đặc điểm.
+1.2. Tìm kiếm dữ liệu và thu thập:
+
+Sử dụng các nguồn dữ liệu trực tuyến, cơ sở dữ liệu xe motor, các diễn đàn và trang web chuyên ngành để thu thập thông tin.
+Dữ liệu bao gồm Make, Model, Type, Year-of-manufacture, Mileage, Engine-Type, Power, Cubic-capacity, Cylinders, Cooling, Gears, Transmission, Curb-weight, Exterior-color, và Price.
+1.3. Hiểu bộ dữ liệu và dọn dẹp:
+
+Kiểm tra và loại bỏ dữ liệu trùng lặp, xử lý các giá trị ngoại lai.
+Kiểm tra và xử lý giá trị thiếu.
+1.4. Scale lại dữ liệu:
+
+Sử dụng kỹ thuật chuẩn hóa để đưa dữ liệu về một khoảng giá trị cụ thể, giúp mô hình học hiệu quả hơn.
+1.5. Chọn lọc và training model:
+
+Áp dụng các mô hình máy học như Linear Regression, Random Forest, hoặc Gradient Boosting để dự đoán giá bán.
+Chia dữ liệu thành tập huấn luyện và tập kiểm tra.
+1.6. Đánh giá mô hình:
+
+Sử dụng các độ đo như Mean Squared Error (MSE) hoặc R-squared để đánh giá hiệu suất của mô hình.
+1.7. Triển khai mô hình:
+
+Chọn mô hình tốt nhất và triển khai nó để sử dụng trong môi trường thực tế.
+2. Thiết kế thực nghiệm (Empirical Design):
+2.1. Phân tích đặc điểm ảnh hưởng đến giá bán:
+
+Sử dụng biểu đồ heatmap để thấy rõ mối quan hệ giữa các đặc điểm và giá bán.
+2.2. Phân tích sự phân bố của các biến quan trọng:
+
+Sử dụng biểu đồ histogram để hiểu rõ sự phân bố của các biến quan trọng.
+2.3. Xem xét mối liên quan giữa các biến độc lập:
+
+Sử dụng ma trận tương quan để xác định mối quan hệ giữa các biến độc lập.
+3. Kết quả thực nghiệm (Empirical Results):
+3.1. Đánh giá mô hình:
+
+So sánh kết quả của các mô hình và chọn mô hình có hiệu suất tốt nhất.
+3.2. Phát hiện quan trọng:
+
+Xác định đặc điểm nào ảnh hưởng nhiều nhất đến giá bán xe motor phân khối lớn.
+3.3. Trực quan hóa với hình ảnh và dashboard:
+
+Tạo các biểu đồ trực quan và dashboard để trình bày kết quả một cách dễ hiểu cho người không chuyên ngành.

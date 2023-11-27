@@ -1,0 +1,19 @@
+NULL:
+
+-mileage = mean(mileage)
+-engine-type (a/b/c) tách lấy a c
+	+ ở ô a: giá trị "V" ="Straight" => chuyển về "Straight"
+-power: 
+	+ nếu ô dạng a/b: lấy b
+	+ nếu ô dạng a/b(Factory:c/d): lấy d
+-Cubic-capacity: nếu ô có dạng a(Factory:b) thì lấy a
+-Cylinders: lấy mode(cylinders)
+-cooling = mode(cooling)
+-gears = mode(cùng type)
+-transmission = mode(cùng make)
+-curbweight = mean(cùng make)
+
+
+
+
+
